@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+
+    font-family: "poppins", sans-serif;
+}
+
+.Card_Main {
+    background-color: #FFEFAE;
+}
+
+
+
+.Card_name {
+    color: #670000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Card_Content {
+
+    color: #880707;
+    
+}
+
+.Card_Content p {
+    cursor: pointer;
+}
+
+.Card_Content p:hover {
+    text-decoration: underline;
+}
+
+.active {
+    border-bottom: 2px solid #670000;
+}
+
+
+.Card_Talk {
+    
+    background: linear-gradient(to left, #670000, #880707, #670000);
+    
+}
+
+
+.Card_Content1{
+    display: none; 
+}
+
+
+@media only screen and (max-width: 750px) {
+   
+    .Card_Talk{
+        display: none;
+    }
+    .Card_name{
+        font-size: 30px;
+    }
+    .Card_Content{
+        display: none;
+    }
+    .Card_Content1{
+        
+        color: #670000;
+        
+    }
+    .dropdown-menu{
+   
+    color: #880707;
+
+    
+}
+
+
+}

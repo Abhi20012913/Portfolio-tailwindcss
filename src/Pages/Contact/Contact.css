@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+
+    font-family: "poppins", sans-serif;
+}
+
+
+
+
+
+.Card_Contact_Get_in_Touch {
+    color: #670000;
+}
+
+
+
+
+
+.Card_Contact_second {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.Card_Contact_second_home {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Card_Contact_textArea {
+    margin-bottom: 3%;
+}
+
+.Card_Contact_Subject {
+    margin-bottom: 5%;
+}
+
+.Send_Contact {
+    color: #670000 !important;
+    
+    
+}
+
+.Contact_address {
+    font-size: 16px;
+    color: #2a2a2a;
+    width: 80%;
+}
+
+.Contact_pincode {
+    color: #8a8a8a;
+    font-size: 16px;
+    width: 90%;
+}
+
+.Card_Contact_icone {
+    font-size: 27px;
+    color: #8f9195;
+    padding-top: 12px;
+
+}
+
+.Card_Space_contact {
+    margin-left: 20px;
+}
+
+.Card_contact_input2 {
+    padding-left: 10%;
+}
+
+.Send_Contact11 {
+    display: none;
+}
+
+@media only screen and (max-width: 750px) {
+
+    .Card_Contact_Get_in_Touch {
+        padding-top: 12%;
+    }
+
+    .Card_Contact_both {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 15px;
+
+    }
+
+    .Contact_input1 {
+        border: 1px solid #e5e6e9;
+        padding: 5%;
+        border-radius: 0px;
+        padding-left: 18px;
+        font-size: 13px;
+        background: transparent;
+        width: 97%;
+
+    }
+
+    .contact_input {
+        border: 1px solid #e5e6e9;
+        border-radius: 0px;
+        font-size: 13px;
+        background: transparent;
+        padding: 5%;
+        width: 97%;
+    }
+
+    .Card_Contact_inputs {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 4%;
+    }
+
+    .Card_contact_input2 {
+        padding-left: 0%;
+        padding-top: 5%;
+    }
+
+    .Contact_pincode {
+        color: #8a8a8a;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .Send_Contact {
+        display: none;
+    }
+
+    .Send_Contact11 {
+        color: #670000 !important;
+        padding: 4px 44px;
+        font-size: 14px;
+        font-weight: 400;
+        border: 1px solid #670000;
+        letter-spacing: 3px;
+        cursor: pointer;
+        width: 8%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .Card_Contact_second {
+        margin-bottom: 15%;
+    }
+}

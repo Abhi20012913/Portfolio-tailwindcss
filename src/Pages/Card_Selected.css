@@ -1,0 +1,147 @@
+.Card_Main_Selected {
+    position: relative;
+}
+
+.Card_main_image_selected {
+    width: 100%;
+    height: auto;
+}
+
+.Card_Main_Selected_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98.6%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+}
+
+.Card_Main_Selected:hover .Card_Main_Selected_overlay {
+    opacity: 1;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 99999;
+
+}
+
+.close {
+    position: absolute;
+    top: 60px;
+    right: 425px;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 999999;
+    color: red;
+}
+
+.modal-image {
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+@media only screen and (max-width: 750px) {
+
+
+    .Card_main_selected_portfolios {
+        font-size: 28px;
+    }
+
+    .Card_main_image_selected {
+        display: flex;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .Card_selected_gallerys {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+        width: 90%;
+        padding-top: 5%;
+        padding-bottom: 8%;
+    }
+    .gallerys{
+        width: 380px;
+    }
+
+    .Card_Main_Selected_overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 75px;
+        font-weight: bold;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    .close {
+        position: absolute;
+        top: 150px;
+        right: 20px;
+        font-size: 40px;
+        cursor: pointer;
+        z-index: 999999;
+    }
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+    
+    .modal-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        z-index: 99999;
+        
+    }
+    .modal-image{
+        width: 70%;
+        height: 50%;
+        text-align: center;
+        display: flex;
+        padding-left: 60px;
+    }
+}
